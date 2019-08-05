@@ -18,8 +18,12 @@ Works on both Linux and macOS.
   $ brew install ffmpeg
   ```
 
-3. Then simply use it to convert movies. It can be as simple as:
+3. Then simply use it to convert movies. Use default conf or with parameters::
 
   ```bash
   $ giffify.py my-video.mp4
+  ```
+  
+  ```bash
+  $ python giffify.py '/home/ubuntu/balltask.mp4' -dw 320 -dh 240 --start-time 0 --fps 30 --duration 16 --speed 2
   ```
